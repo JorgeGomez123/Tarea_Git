@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<!DOCTYPE tienda SYSTEM "tienda.dtd">
+<tienda>
+    <cliente>
+        <nombre>Jorge</nombre>
+        <direccion>
+            <calle>Calle Río Ter</calle>
+            <ciudad>Leganés</ciudad>
+        </direccion>
+        <telefono>620149787</telefono>
+        <compras>
+            <producto>
+                <codigo>123456</codigo>
+                <tipo>Gaming</tipo>
+                <peso>15 kg</peso>
+            </producto>
+            <producto>
+                <codigo>789012</codigo>
+                <tipo>Ropa</tipo>
+            </producto>
+        </compras>
+    </cliente>
+    <cliente>
+        <nombre>Sandra</nombre>
+        <direccion>
+            <apartado>Apartado 243</apartado>
+            <ciudad>Getafe</ciudad>
+        </direccion>
+        <compras>
+            <producto>
+                <codigo>875643</codigo>
+                <tipo>Electrónico</tipo>
+            </producto>
+        </compras>
+    </cliente>
+</tienda>

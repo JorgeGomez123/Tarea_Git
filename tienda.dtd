@@ -1,0 +1,15 @@
+<!DOCTYPE tienda [
+    <!ELEMENT tienda (cliente+)>
+    <!ELEMENT cliente (nombre, direccion+, telefono?, compras?)>
+    <!ELEMENT nombre (#PCDATA)>
+    <!ELEMENT direccion (calle | apartado | ciudad)>
+    <!ELEMENT calle (#PCDATA)>
+    <!ELEMENT apartado (#PCDATA)>
+    <!ELEMENT ciudad (#PCDATA)>
+    <!ELEMENT telefono (#PCDATA)>
+    <!ELEMENT compras (producto+)>
+    <!ELEMENT producto (codigo, tipo, peso?)>
+    <!ELEMENT codigo (#PCDATA)>
+    <!ELEMENT tipo (#PCDATA)>
+    <!ELEMENT peso (#PCDATA)>
+]>
